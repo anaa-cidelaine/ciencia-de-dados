@@ -2,7 +2,7 @@ const (url) = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados
 
 async function visualizarInformacoesGlobais() {
 
-        const res = await fetch('https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json')
+        const res = await fetch()
 
         const dados = await res.json()
 
